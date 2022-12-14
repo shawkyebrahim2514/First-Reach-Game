@@ -94,7 +94,7 @@ void FirstReachGame::takeGameMode() {
         std::string humanName1, humanName2;
         std::cout << "Enter human player1 name(has top cars): ";
         std::cin >> humanName1;
-        std::cout << "Enter human player2 name(has right cars): ";
+        std::cout << "Enter human player2 name(has left cars): ";
         std::cin >> humanName2;
         players[0] = new Human(humanName1);
         players[1] = new Human(humanName2);
