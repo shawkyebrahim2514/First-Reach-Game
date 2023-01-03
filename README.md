@@ -7,15 +7,15 @@
  ## About this game
  
  ```
-   > This game consists of n*n grid
-   > each player can have (n-2) cars on the top row or on the left column
-   > The goal from this game is to reach the other side firstly
-        (if your car in the top row, your goal is to make all your cars in the down row)
-        (if your car in the left column, your goal is to make all your cars in the right column)
-   > The only valid move is to inly one step forward
-        if the next cell isn't occupied, then you can move to it automatically
-        if the next cell is occupied, you can move to the next next cell if it isn't occupied automatically
-        if the next cell is occupied and the next next cell also is occupied, then you cannot move this car
+    This game consists of an n*n grid
+    Each player can have (n-2) cars on the top row or on the left column
+    The goal of this game is to reach the other side firstly
+           (if your vehicle is in the top row, your goal is to make all your cars in the down row)
+           (if your vehicle is in the left column, your goal is to make all your cars in the right column)
+    His only valid move is to only one step forward
+           if the next cell isn't occupied, then you can move to it automatically
+           if the next cell is settled, you can move to the next cell if it isn't occupied automatically
+           if the next cell is settled and the next cell also is occupied, then you cannot move this car
  ```
  ## Diagram showing how to play this game
 <p align="center">
